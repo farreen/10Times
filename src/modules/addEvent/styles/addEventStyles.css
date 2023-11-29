@@ -1,0 +1,52 @@
+.outerContainer{
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+}
+.innerContainer{
+    background-color: #FFFFFF;
+    height: auto;
+    width: 1100px;
+}
+
+/* Create a CSS file or add this to your existing CSS */
+.custom-outline input.form-control{
+    border:none;
+}
+.custom-outline input.form-control:focus {
+    box-shadow: none;
+    border:none; /* Optional: Set the border color when focused */
+}
+
+select {
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    background-color: #FFFFFF;
+    margin-left: 10px;
+}
+
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+    /* display: block; */
+    width: 96px;
+    outline: none;
+    /* border-bottom: black 0.1 px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none; */
+    border: none;
+    cursor: pointer;
+}
+input{
+    outline: none;
+    /* border-bottom: black 0.1 px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 5px; */
+    border: none;
+    cursor: pointer;
+}
